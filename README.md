@@ -6,6 +6,12 @@ This is the repo is to store the configuration for my nvim configuration.
 
 ## Installation
 
+To install this configuration in the `~/.config` directory run the following command:
+
+``` bash
+gh repo clone robertsirc/nvim
+```
+
 ## Requirements
 
 [Homebrew](https://brew.sh/) is the package manager we are using for Linux and MacOS.
@@ -18,6 +24,11 @@ brew install neovim
 
 More information can be found [here](https://neovim.io/).
 
+### GitHub CLI
+
+``` bash
+brew install gh
+```
 
 ### vim-plug
 
