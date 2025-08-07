@@ -16,4 +16,14 @@ This is the repo is to store the configuration for my nvim configuration.
 brew install neovim
 ```
 
+More information can be found [here](https://neovim.io/).
 
+
+### vim-plug
+
+``` bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+More information can be found [here](https://github.com/junegunn/vim-plug)
