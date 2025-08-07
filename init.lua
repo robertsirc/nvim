@@ -16,3 +16,4 @@ package.path = home .. "/.config/nvim/?.lua;" .. package.path
 require "common"
 require "theme"
 require "vimtree"
+
