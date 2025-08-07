@@ -1,3 +1,6 @@
+# ignore vim-plug
+autoload
+
 # Compiled Lua sources
 luac.out
 
