@@ -4,14 +4,6 @@
 
 This is the repo is to store the configuration for my nvim configuration.
 
-## Installation
-
-To install this configuration in the `~/.config` directory run the following command:
-
-``` bash
-gh repo clone robertsirc/nvim
-```
-
 ## Requirements
 
 [Homebrew](https://brew.sh/) is the package manager we are using for Linux and MacOS.
@@ -38,3 +30,11 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
 ```
 
 More information can be found [here](https://github.com/junegunn/vim-plug)
+
+## Installation
+
+To install this configuration in the `~/.config` directory run the following command:
+
+``` bash
+gh repo clone robertsirc/nvim
+```
