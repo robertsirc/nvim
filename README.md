@@ -2,9 +2,13 @@
 
 ## Introduction
 
-This is the repo is to store the configuration for my nvim configuration.
+This is the repo is to store the configuration for my nvim configuration. This configuration is based and the very NeoVim guide [here](https://poltora.dev/neovim-for-developers/).
 
 ## Requirements
+
+Things you need to install prior.
+
+### Homebrew
 
 [Homebrew](https://brew.sh/) is the package manager we are using for Linux and MacOS.
 
