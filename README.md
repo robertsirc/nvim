@@ -35,6 +35,14 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
 
 More information can be found [here](https://github.com/junegunn/vim-plug)
 
+## Optional
+
+### GOPls
+
+``` brew
+brew install gopls
+```
+
 ## Installation
 
 To install this configuration in the `~/.config` directory run the following command:

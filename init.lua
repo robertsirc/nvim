@@ -10,6 +10,7 @@ Plug('kyazdani42/nvim-web-devicons')
 Plug('romgrk/barbar.nvim')
 Plug('nvim-lualine/lualine.nvim') 
 Plug('nvim-treesitter/nvim-treesitter', {['do'] = ':TSUpdate'})
+Plug('neovim/nvim-lspconfig')
 
 vim.call('plug#end')
 
@@ -21,3 +22,5 @@ require "theme"
 require "vimtree"
 require "barbar"
 require "lua_line"
+require "nvim-treesitter"
+require "lsp"
