@@ -8,6 +8,7 @@ Plug('catppuccin/nvim')
 Plug('kyazdani42/nvim-tree.lua')
 Plug('kyazdani42/nvim-web-devicons')
 Plug('romgrk/barbar.nvim')
+Plug('nvim-lualine/lualine.nvim') 
 
 vim.call('plug#end')
 
@@ -17,4 +18,5 @@ package.path = home .. "/.config/nvim/?.lua;" .. package.path
 require "common"
 require "theme"
 require "vimtree"
-require"barbar"
+require "barbar"
+require "lua_line"
