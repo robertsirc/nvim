@@ -10,7 +10,15 @@ Plug('kyazdani42/nvim-web-devicons')
 Plug('romgrk/barbar.nvim')
 Plug('nvim-lualine/lualine.nvim') 
 Plug('nvim-treesitter/nvim-treesitter', {['do'] = ':TSUpdate'})
+
+-- optional
 Plug('neovim/nvim-lspconfig')
+Plug('hrsh7th/cmp-buffer') 
+Plug('hrsh7th/cmp-path')
+Plug('hrsh7th/cmp-cmdline') 
+Plug('hrsh7th/nvim-cmp')
+Plug('hrsh7th/cmp-nvim-lsp' ) 
+Plug('hrsh7th/cmp-nvim-lsp-signature-help') 
 
 vim.call('plug#end')
 
@@ -22,5 +30,7 @@ require "theme"
 require "vimtree"
 require "barbar"
 require "lua_line"
-require "nvim-treesitter"
+
+-- optional
 require "lsp"
+require"cmp_config"
