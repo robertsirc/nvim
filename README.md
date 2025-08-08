@@ -1,4 +1,4 @@
-# nvim
+# NeoVim Configuration
 
 ## Introduction
 
@@ -42,3 +42,10 @@ To install this configuration in the `~/.config` directory run the following com
 ``` bash
 gh repo clone robertsirc/nvim
 ```
+
+Once this is cloned to the right directory with in `NeoVim` run the following command:
+
+``` bash
+:PlugInstall
+```
+
